@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body{
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+    background-color: aqua;
+
+    
+}
+.cardName{
+    display: flex;;
+    flex-direction: row;
+    
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    max-height: max-content;
+    align-items: center;
+    justify-content: center;
+}
+.userInput{
+    display: flex;
+    justify-content: center;
+}
+.container>input{
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 2.1rem;
+    background: #eef2f3;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button{
+    width: 150px;
+    height: 40px;
+  
+    font-family: arimo;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+    
+
 }
